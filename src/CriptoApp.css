@@ -1,9 +1,14 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
-body {
-  display: grid;
-  place-content: center;
-  height: 100vh;
-  background-color: #300D50;
+*,::after,::before{
+  margin: 0;
+  color : #fff;
+  font-family:"Poppins"
+}
+
+
+body,::after,::before {
+  /* background-color: #300D50; */
+  background-color: #951BAE;
+
 }
 
 button {
@@ -24,5 +29,5 @@ button {
   line-height: 24px;
   text-transform: uppercase;
   font-weight: bold;
-  animation: button-ripple 3s infinite;
+
 }
