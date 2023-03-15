@@ -1,6 +1,7 @@
 import { Stack } from "@mui/system";
-import { Button, Link, Typography } from "@mui/material";
+import { Link, Typography } from "@mui/material";
 import { motion } from "framer-motion";
+import { Button } from "./Button/Button";
 
 export const NavApp = () => {
   return (
@@ -12,7 +13,7 @@ export const NavApp = () => {
       padding={2}
       height="75px"
       spacing={18}
-      >
+    >
       <motion.img
         src="https://kinforce.net/cripto/wp-content/uploads/2021/07/elements-gravitate-letter-g-logo-template-TD5X6QY.png"
         alt="Logo"
@@ -148,20 +149,14 @@ export const NavApp = () => {
         >
           Contact
         </Link>
+
         <Button
           component={motion.button}
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.9 }}
           sx={{
-            borderRadius: "30px",
-            color: "white",
-            fontWeight: "bold",
-            marginLeft: "12px",
-            padding: "12px 30px",
-            ":hover": {
-              backgroundImage:
-                "linear-gradient(90deg, #e702bf 0%, #ec5046 100%)",
-            },
+            pl: "25px",
+            pr: "25px",
           }}
         >
           Buy Token
