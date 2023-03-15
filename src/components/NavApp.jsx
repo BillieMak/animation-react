@@ -5,13 +5,30 @@ import { motion } from "framer-motion";
 export const NavApp = () => {
   return (
     <Stack
-      spacing={4}
+      direction="row"
       justifyContent="center"
       alignItems="center"
       bgcolor="#300D50"
       padding={2}
-      height="70px"
-    >
+      height="75px"
+      spacing={18}
+      >
+      <motion.img
+        src="https://kinforce.net/cripto/wp-content/uploads/2021/07/elements-gravitate-letter-g-logo-template-TD5X6QY.png"
+        alt="Logo"
+        width="144"
+        height="48"
+        initial={{
+          marginTop: "-500px",
+        }}
+        animate={{
+          marginTop: "0",
+        }}
+        transition={{
+          duration: "1.1",
+          type: "spring",
+        }}
+      />
       <motion.div
         initial={{
           marginTop: "-500px",

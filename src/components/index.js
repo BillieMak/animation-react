@@ -1,2 +1,2 @@
 export * from "./NavApp"
-export * from "./BodyApp"
+export * from "./body/BodyApp"
