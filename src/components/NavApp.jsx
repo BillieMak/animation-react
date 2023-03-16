@@ -12,7 +12,7 @@ export const NavApp = () => {
       bgcolor="#300D50"
       padding={2}
       height="75px"
-      spacing={18}
+      spacing={20}
     >
       <motion.img
         src="https://kinforce.net/cripto/wp-content/uploads/2021/07/elements-gravitate-letter-g-logo-template-TD5X6QY.png"
@@ -54,6 +54,7 @@ export const NavApp = () => {
             cursor: "pointer",
             display: "inline-block",
             padding: "12px  15px",
+            display:{ xs : "none", lg: "inline-flex"}
           }}
         >
           Home
@@ -70,6 +71,7 @@ export const NavApp = () => {
             cursor: "pointer",
             display: "inline-block",
             padding: "12px  15px",
+            display:{ xs : "none", lg: "inline-flex"}
           }}
         >
           About
@@ -85,6 +87,7 @@ export const NavApp = () => {
             letterSpacing: ".25px",
             cursor: "pointer",
             padding: "12px  15px",
+            display:{ xs : "none", lg: "inline-flex"}
           }}
         >
           token sale
@@ -100,6 +103,7 @@ export const NavApp = () => {
             letterSpacing: ".25px",
             cursor: "pointer",
             padding: "12px  15px",
+            display:{ xs : "none", lg: "inline-flex"}
           }}
         >
           road map
@@ -115,6 +119,7 @@ export const NavApp = () => {
             letterSpacing: ".25px",
             cursor: "pointer",
             padding: "12px  15px",
+            display:{ xs : "none", lg: "inline-flex"}
           }}
         >
           Pages
@@ -130,6 +135,7 @@ export const NavApp = () => {
             letterSpacing: ".25px",
             cursor: "pointer",
             padding: "12px  15px",
+            display:{ xs : "none", lg: "inline-flex"}
           }}
         >
           blog
@@ -145,6 +151,7 @@ export const NavApp = () => {
             letterSpacing: ".25px",
             cursor: "pointer",
             padding: "12px  15px",
+            display:{ xs : "none", lg: "inline-flex"}
           }}
         >
           Contact
@@ -155,8 +162,7 @@ export const NavApp = () => {
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.9 }}
           sx={{
-            pl: "25px",
-            pr: "25px",
+            ml: "50px"
           }}
         >
           Buy Token
