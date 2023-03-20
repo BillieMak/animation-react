@@ -8,7 +8,7 @@ export const SectionBannerStyle = styled(Box)`
   background-position-y: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: calc(100vh - 107px);
+  min-height: calc(100vh - 79px);
   display: flex;
   align-items: center;
 `;
